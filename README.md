@@ -6,4 +6,4 @@ Content :
 
 Erratum / replace words
 
-with modifications, so you can use `s/bad word/right word` and it works with `s/ bad word/right word`
+with modifications, so you can use `s/bad word/right word` and it works with `s/ bad word/right word` and it will then rewrite the previous sentence you wrote with the right word
