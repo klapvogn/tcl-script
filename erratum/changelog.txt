@@ -1,0 +1,22 @@
+ ###############################################################################
+#
+# Erratum v1.02  ©2016-2020 Menz Agitat
+# Historique des versions
+#
+ ###############################################################################
+
+
+
+1.0
+	- 1ère version
+
+1.01
+	- L'utilisation de majuscules dans la commande empêchait le filtrage de
+		fonctionner correctement.
+	- Une notification s'affichait en partyline à chaque utilisation de la
+		commande.
+
+1.02
+	- Correction : le script refusait de se charger sur les Eggdrops v1.8+
+	- Correction : le catalogue de messages n'était pas déchargé de la mémoire par
+		la procédure de désallocation des ressources.

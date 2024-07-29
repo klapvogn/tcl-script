@@ -1,0 +1,48 @@
+ ###############################################################################
+#
+# Erratum v1.02  ©2016-2020 Menz Agitat
+# Documentation
+#
+ ###############################################################################
+
+
+
+
+Description
+-----------
+
+Erratum permet de corriger ce qui a été dit auparavant sur un chan.
+L'objectif peut être de corriger les fautes d'orthographe faites par d'autres,
+ou encore de leur faire dire autre chose que ce qu'ils avaient voulu dire.
+
+
+
+Syntaxe
+-------
+
+!erratum <mot/remplacement[/mot/remplacement[/...]]>
+
+Exemples :
+
+<untel> comment sa va ?
+<MenzAgitat> !erratum sa/ça
+<Eggdrop> Correction : <untel> comment ça va ?
+
+<untel> cc coman sa va ?
+<MenzAgitat> !erratum cc/coucou/coman/comment/sa/ça
+<Eggdrop> Correction : <untel> coucou comment ça va ?
+
+<untel> je me sens mieux
+<MenzAgitat> mieux/plus pisser
+<Eggdrop> Correction : <untel> je me sens plus pisser
+
+
+
+Activation
+----------
+
+Pour activer Erratum sur un chan, vous devez taper ceci en partyline de
+l'Eggdrop :
+	.chanset #NomDuChan +erratum
+et ceci pour le désactiver :
+	.chanset #NomDuChan -erratum
